@@ -3,7 +3,7 @@ project(object_3d_retrieval)
 
 include(ExternalProject)
 
-add_definitions(-std=c++11 -O3)
+add_definitions(-std=c++11 -O3 -fPIC)
 
 # Show where to find the find package scripts
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
